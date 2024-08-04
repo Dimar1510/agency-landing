@@ -55,9 +55,9 @@ const Article = () => {
               </p>
               <div className="flex gap-4 items-center flex-wrap">
                 <ClientLogos number={7} />
-                <p className="cursor-pointer font-bold text-brandPrimary hover:text-neutral-700">
+                <a className="cursor-pointer font-bold text-brandPrimary hover:text-neutral-700">
                   Meet all customers &#8594;
-                </p>
+                </a>
               </div>
             </div>
           </div>
