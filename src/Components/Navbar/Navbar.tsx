@@ -55,7 +55,7 @@ const Navbar = () => {
                 spy={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-grey900 hover:text-brandPrimary first:font-medium"
+                className="block text-base text-grey900 hover:text-brandPrimary first:font-medium cursor-pointer"
               >
                 {link}
               </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
+            <button className="min-w-max bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
               Sign up
             </button>
           </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
               spy={true}
               offset={-100}
               key={path}
-              className="block text-base text-white hover:text-brandPrimary first:font-medium"
+              className="block text-base text-white hover:text-brandPrimary first:font-medium cursor-pointer"
             >
               {link}
             </Link>
