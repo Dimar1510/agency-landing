@@ -1,4 +1,5 @@
 import { Card } from "flowbite-react";
+import ClientLogos from "../ClientLogos/ClientLogos";
 
 const Services = () => {
   const services = [
@@ -28,15 +29,7 @@ const Services = () => {
           We have been working with Fortune 500+ clients
         </p>
         <div className="my-12 flex flex-wrap justify-between items-center  gap-8">
-          {Array(7)
-            .fill(null)
-            .map((n, i) => (
-              <img
-                key={i}
-                src={`/src/assets/images/clients/${i + 1}.png`}
-                alt="company logo"
-              />
-            ))}
+          <ClientLogos number={7} />
         </div>
       </div>
       <div className="mt-20 md:max-w-lg mx-auto text-center">
