@@ -24,10 +24,10 @@ const HeroSlide = ({
       <div className="md:w-1/2">
         <h1 className="text-3xl md:text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 capitalize">
           {title}
-          <span className="text-brandPrimary "> {subtitle}</span>
+          <span className="text-brandPrimary"> {subtitle}</span>
         </h1>
         <p className="text-neutralGrey text-base mb-8">
-          Where to grow your business as a photographer: site or social media?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
         <button className="btn-primary hidden md:block">Register</button>
       </div>
@@ -54,10 +54,10 @@ const customTheme: CustomFlowbiteTheme = {
 const Hero = () => {
   return (
     <div className="bg-neutralSilver">
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto ">
         <div className="py-12 flex flex-col items-center">
           <Flowbite theme={{ theme: customTheme }}>
-            <Carousel slideInterval={5000} className="w-full ">
+            <Carousel slideInterval={4000} className="w-full ">
               <HeroSlide
                 image={banner1}
                 title="Lessons and insights"

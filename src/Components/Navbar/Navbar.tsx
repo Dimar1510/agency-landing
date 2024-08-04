@@ -18,12 +18,12 @@ const Navbar = () => {
       } else {
         setIsSticky(false);
       }
-      window.addEventListener("scroll", handleScroll);
     };
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
 
   const navItems = [
     { link: "Home", path: "home" },
