@@ -55,9 +55,13 @@ const Hero = () => {
   return (
     <div className="bg-neutralSilver">
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto ">
-        <div className="py-12 flex flex-col items-center">
+        <div className="pt-12 flex flex-col items-center">
           <Flowbite theme={{ theme: customTheme }}>
-            <Carousel slideInterval={4000} className="w-full ">
+            <Carousel
+              draggable={false}
+              slideInterval={4000}
+              className="w-full "
+            >
               <HeroSlide
                 image={banner1}
                 title="Lessons and insights"
